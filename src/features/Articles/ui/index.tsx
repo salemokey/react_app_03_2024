@@ -35,7 +35,7 @@ export const PostCard = (props: PostCardProps) => {
         <img src={coverImg} alt="cover" />
       </div>
 
-      <StatsButtons likes={postData.likes} views={postData.views}/>
+      <StatsButtons likes={postData.likes} views={postData.views} comments={postData.comments} bookmarks={postData.bookmarks}/>
     </div>
   );
 };
